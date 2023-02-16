@@ -7,16 +7,11 @@ and thank-you-state div becomes visible */
 
 form.addEventListener("submit", function(i) {
     i.preventDefault(); // Prevent page refresh when submit button is clicked
-    const selector = "input[name=rating]:checked"
-    const checkedInput = document.querySelector(selector)
-        
-    if(checkedInput !== null) {
-        const selectedRating = document.querySelector(".selection")
-        selectedRating.textContent = `You selected ${checkedInput.getAttribute("value")} out of 5`
-        ratingState.classList.add("hidden")
-        thankYouState.classList.remove("hidden")
-    }
-
+    const checkedInput = document.querySelector("input:checked")
+    const selectedRating = document.querySelector(".selection")
+    selectedRating.textContent = `You selected ${checkedInput.getAttribute("value")} out of 5`
+    ratingState.classList.add("hidden")
+    thankYouState.classList.remove("hidden")
 })
 
 /* Add orange background to an input/label when it is clicked by adding "active"
@@ -31,4 +26,3 @@ label.forEach(i => {
         this.classList.add("active")
       })
 })
-
