@@ -21,7 +21,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-MuZVGbtjgI)
-- Live Site URL: [GitHub Pages](https://clementbartholome.github.io/Interactive-Rating-Component-Frontend-Mentor-Challenge-2/)
+- Live Site URL: [GitHub Pages](https://clementbartholome.github.io/Interactive-Rating-Component/)
 
 ### Built with
 
